@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
             strcat(digest, token);
             free(token);
         }
-        printf("%s --> %s\n", argv[i], digest);
+        printf("%s\n", digest);
         
         
         free(digest);
